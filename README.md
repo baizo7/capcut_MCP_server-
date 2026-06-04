@@ -186,7 +186,7 @@ pip install -e ".[dev]"
 python -m pytest tests/ -v
 
 # Test with MCP Inspector (browser-based)
-fastmcp dev src/capcut_mcp/server.py
+python -m fastmcp dev src/capcut_mcp/server.py
 ```
 
 ---
